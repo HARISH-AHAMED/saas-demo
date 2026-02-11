@@ -41,7 +41,8 @@ You have two main options for GitHub Pages:
    ```
 
 ### Option B: Automatic Deploy via GitHub Actions (Recommended)
-GitHub can automatically build and deploy every time you push. I've prepared the project for this.
+GitHub automatically builds and deploys every time you push to the `master` branch. The project is fully configured for this.
+
 - Go to **Settings** > **Pages**.
 - Select **GitHub Actions** as the source.
 - GitHub provides templates for "Static HTML" or "Vite". Choose the Vite template.
