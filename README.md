@@ -10,8 +10,9 @@ This guide explains how to deploy your frontend to **GitHub Pages** and connect 
 ## 2. Prepare for GitHub Pages
 The project is already configured with:
 - `HashRouter` for stable static routing.
-- Relative base paths (`base: './'`) in `vite.config.js`.
-- Environment variable support for the API URL.
+- `base: '/saas-demo/'` in `vite.config.js` for GitHub Pages subfolder.
+- Environment variable support (`VITE_API_URL`) for the live API.
+
 
 ## 3. Pushing to GitHub
 Open your terminal in the root directory and run:
@@ -20,7 +21,7 @@ Open your terminal in the root directory and run:
 git init
 git add .
 git commit -m "Initial commit - Prepare for deployment"
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git remote add origin https://github.com/HARISH-AHAMED/saas-demo
 git push -u origin main
 ```
 
